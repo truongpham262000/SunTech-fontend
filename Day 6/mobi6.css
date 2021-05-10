@@ -1,0 +1,108 @@
+header .container .shop{
+    width: unset;
+    font-size: 10px;
+    margin-left: 150px;
+}
+
+header .container .menu-bar ul{
+    display: inline-flex;
+    flex-direction: column; 
+    text-align: center;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 250px;
+    z-index: 3;
+}
+header .container .menu-bar .item li{
+    border: 1px solid #ffffff;
+    background: #99ffff;
+    border-radius: 2px;
+    width: 200px;
+    height: 50px;
+    padding-top: 35px;
+}
+header .container .menu-bar ul li:hover{
+    background-color: blue;
+}
+header .container .menu-bar ul .active a{
+    color: unset;
+}
+slider-bar .slide-img .text-slide{
+    font-size: 20px;
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 350px;
+}
+slider-bar .slide-img .slide img {
+    width: 250%;
+}
+best-seo{
+    display: block;
+    width: 250%;
+    background: #99ffff;
+}
+best-seo .ceo-type{
+    text-align: center;
+    width: 300px;
+    margin-left: 320px;
+}
+best-seo .form-ceo{
+    margin-left: unset;
+    width: 200px;
+}
+best-seo .form-ceo ul{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 350px;
+}
+best-seo .form-ceo ul li .icon-like{
+    margin-left: 40px;
+}
+offer-seo ul{
+    width: 250%;
+    display: block;
+    height: unset;
+}
+offer-seo ul li{
+    border-bottom: 2px solid #ffffff;
+}
+fashion-winter{
+    display: block;
+}
+fashion-winter .width{
+    width: 236%;
+}
+fashion-winter .width img{
+    margin-left: 250px;
+}
+feature-product .top{
+    width: 250%;
+}
+feature-product{
+    background: red;
+}
+feature-product .bottom ul{
+    display: inline-block;
+    margin-left: 350px;
+}
+feature-product .bottom ul li{
+    width: 250px;
+}
+footer{
+    display: block;
+    width: 250%;
+}
+footer .right img{
+    width: 50px;
+    height: 50px;
+}
+pay-visa .pay{
+    width: 250%;
+    text-align: center;
+    height: 100px;
+}
+pay-visa .pay .card a img{
+    width: 50px;
+    height: 50px;
+}

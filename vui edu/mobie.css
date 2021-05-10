@@ -1,0 +1,153 @@
+@media screen and (max-width: 400px)
+{
+    #header{
+        height: 50px;
+    }
+    #header .communicate{
+        display: none;
+    }
+    #header .name-port{
+        font-size: 5px;
+        width: 100%;
+    }
+    #banner .menu-top ul.menu-bar{
+        flex-direction: column;
+        background-color: red;
+        display: none;
+    }
+    #banner .menu-top a.icon-home{
+        width: 60%;
+        text-align: left;
+        margin-left: 20px;
+    }
+    #banner .user{
+        width: 35%;
+    }
+    .user .form-user ul.user-passwork{
+        margin-left: -120px;
+    }
+    .slide-form{
+        flex-direction: column;
+    }
+    .slide-form .slide-img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .slide-form .slide-img img{
+        border: none;
+        margin: 0px;
+    }
+    .slide-form .information{
+        width: 100%;
+    }
+    .slide-form .information ul.form-infor{
+        margin-left: 10px;
+    }
+    #footer{
+        flex-direction: column;
+        height: 450px;
+    }
+    #footer .logo-img{
+        width: 100%;
+    }
+    #footer .logo-img img{
+        height: 200px;
+    }
+    #footer address{
+        width: 100%;
+    }
+    #footer .infor{
+        width: 100%;
+        display: none;
+        margin-right: 0px;
+    }
+    p{
+        font-size: 10px;
+        color: #fff;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 668px)
+{
+    #header{
+        width: 100%;
+        height: 80px;
+    }
+    #header .communicate{
+        display: none;
+    }
+    #header .name-port{
+        font-size: 10px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .user .form-user ul.user-passwork{
+        margin-left: -100px;
+    }
+    .slide-form{
+        flex-direction: column;
+    }
+    .slide-form .slide-img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .slide-form .slide-img img{
+        margin: 0px;
+    }
+    .slide-form .information{
+        width: 100%;
+    }
+    .slide-form .information ul.form-infor{
+        margin-left: 0px;
+    }
+    .slide-form .information ul.form-infor li form{
+        width: 100%;
+    }
+    .slide-form .information ul.form-infor li form h3{
+        text-align: center;
+    }
+    .slide-form .information ul.form-infor li form input{
+        width: 100%;
+    }
+    .slide-form .information ul.form-infor li form textarea{
+        width: 100%;
+    }
+    .slide-form .information ul.form-infor li form button{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .slide-form .information ul.form-infor li.form2{
+        width: 100%;
+    }
+    .slide-form .information ul.form-infor li.form3{
+        width: 100%;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #footer{
+        flex-direction: column;
+        justify-content: center;
+        height: 450px;
+    }
+    #footer .logo-img{
+        width: 50%;
+    }
+    #footer .logo-img img{
+        height: 200px;
+    }
+    #footer address{
+        width: 100%;
+        text-align: center;
+    }
+    #footer .infor{
+        width: 100%;
+        display: none;
+        margin-right: 0px;
+    }
+    p{
+        font-size: 10px;
+        color: #fff;
+    }
+}

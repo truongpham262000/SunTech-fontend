@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cổng thông tin sinh viên</title>
+    <link rel="stylesheet" type="text/css" href="vui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="mobie.css">
+</head>
+<body>
+    <div id="header">
+        <div class="name-port">
+            <h1>TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT TRÌ</h1>
+            <h2>VIET TRI UNIVERSITY OF INDUSTRY (VUI)</h2>
+        </div>
+        <div class="communicate">
+            <ul class="list-content">
+                <li><i class="fa fa-sitemap"></i> Sơ đồ Website</li>
+                <li><i class="fa fa-address-book"></i> Liên Hệ</li>
+                <li><i class="fa fa-flag"></i> Việt Nam</li>
+                <li><i class="fa fa-flag"></i> English</li>
+            </ul>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="menu-top">
+            <a href="#" class="icon-home"><i class="fa fa-home"></i> </a>
+            <ul class="menu-bar">
+                <li class="active one">
+                    <a href="#">CHƯƠNG TRÌNH ĐÀO TẠO<i class="fa fa-angle-down"></i></a>
+                    <div class="menu-dropdown">
+                        <ul class="menu-drop">
+                            <li><a href="#">Toàn trường</a></li>
+                            <li><a href="#">Chuyên ngành chính</a></li>
+                            <li><a href="#">Chuyên ngành thứ 2</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="one">
+                    <a href="#">ĐĂNG KÝ<i class="fa fa-angle-down"></i></a>
+                    <div class="menu-dropdown">
+                        <ul class="menu-drop">
+                            <li><a href="#">Học chuyên ngành chính</a></li>
+                            <li><a href="#">Học chuyên ngành 2</a></li>
+                            <li><a href="#">Đăng ký học sớm</a></li>
+                            <li><a href="#">Đăng ký môn tự chọn</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="one">
+                    <a href="#">THÔNG TIN<i class="fa fa-angle-down"></i></a>
+                    <div class="menu-dropdown">
+                        <ul class="menu-drop">
+                            <li><a href="#">Tin mới nhất</a></li>
+                            <li><a href="#">Thông báo</a></li>
+                            <li><a href="#">Văn bản biểu mẫu</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="one">
+                    <a href="#">SINH VIÊN<i class="fa fa-angle-down"></i></a>
+                    <div class="menu-dropdown">
+                        <ul class="menu-drop">
+                            <li><a href="#">Thông tin cá nhân</a></li>
+                            <li><a href="#">Sửa thông tin cá nhân</a></li>
+                            <li><a href="#">Xem điểm</a></li>
+                            <li><a href="#">Xem lịch học</a></li>
+                            <li><a href="#">Xem lịch thi</a></li>
+                            <li><a href="#">Xem thông tin học phí</a></li>
+                            <li><a href="#">Thăm dò ý kiến về hoạt động giảng dạy</a></li>
+                            <li><a href="#">Khảo sát chất lượng đào tạo</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="user">
+                <a href="#" class="icon-user" onclick="change();" id="click"><i class="fa fa-user"></i> ĐĂNG NHẬP<i class="fa fa-angle-down"></i></a>
+                <div class="form-user">
+                    <ul class="user-passwork">
+                        <li>
+                            <span class="active">Vai trò</span>
+                            <select>
+                                <option>Sinh Viên</option>
+                                <option>Giáo Viên</option>
+                                <option>Quản Trị Hệ Thống</option>
+                            </select>
+                        </li>
+                        <li>
+                            <span>Tài khoản</span>
+                            <input type="text" name="user" placeholder="Tài khoản">
+                        </li>
+                        <li>
+                            <span>Mật khẩu</span>
+                            <input type="password" name="password" placeholder="Mật khẩu">
+                        </li>
+                        <li>
+                            <span><a href="#">Quên mật khẩu ?</a></span>
+                            <button name="button">Đăng nhập</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="slide-form">
+            <div class="slide-img">
+                <img src="./slider/12.jpg" onclick="sliderform()" alt="Please load for web" id="slider">
+            </div>
+            <div class="information">
+                <ul class="form-infor">
+                    <li>
+                        <form>
+                            <h3>Gửi ý kiến cho nhà trường</h3>
+                            <strong>Email *</strong><br/>
+                            <input type="text" name="Email" placeholder="Email"><br/>
+                            <strong>Họ tên *</strong><br/>
+                            <input type="text" name="Họ tên" placeholder="Họ tên"><br/>
+                            <strong>Số điện thoại *</strong><br/>
+                            <input type="text" name="Phone number" placeholder="Số điện thoại"><br/>
+                            <strong>Nội dung *</strong><br/>
+                            <textarea placeholder="Nội dung"></textarea>
+                            <button>Gửi thông tin</button>
+                        </form>
+                    </li>
+                    <li class="form2">
+                        <h1><a href="#">VĂN BẢN,BIỂU MẪU</a></h1>
+                        <hr/>
+                    </li>
+                    <li class="form3">
+                        <h1><a href="#">LIÊN KẾT NHANH</a></h1>
+                        <hr/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="logo-img">
+            <img src="./img/logo.png">
+        </div>
+        <address>
+            <p>Bản quyền thuộc về Trường Đại học Công nghiệp Việt Trì</p>
+            <p>Email: daotao@gmail.com - Điện thoại: (04) 38333231 – (04) 3833759</p>
+            <p>Đơn vị phát triển: Công ty Giải pháp Giáo dục Nam Việt</p>
+            <p>Hỗ trợ kỹ thuật: 0943 24.33.55 - 04 37858237</p>
+        </address>
+        <div class="infor">
+            <p>Đang Online: 8</p>
+            <p>Số lượt truy câp: 1275477</p>
+        </div>
+    </div>
+    <script>
+         var x = document.querySelector('.form-user');
+         var y = document.querySelector('#click')
+        y.addEventListener('click', () =>{
+            if(x.style.display === 'none')
+                x.style.display = 'block';
+            else
+                x.style.display = 'none';
+        })
+    </script>
+    <script>
+        let index = 1;
+        sliderform = function () {
+            let imgs =["./slider/1.jpg","./slider/12.jpg","./slider/2.jpg","./slider/3.jpg","./slider/4.jpg"];
+            document.getElementById('slider').src =imgs[index];
+            index++;
+            if(index == 5){
+                index = 0;
+            }
+        }
+        setInterval(sliderform,3000);
+    </script>
+</body>
+</html>

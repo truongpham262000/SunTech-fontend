@@ -1,0 +1,89 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#banner{
+	width: 1000px;
+	margin: 0px auto;
+	display: flex;
+	background-color: red;
+	padding-bottom: 50px;
+	position: relative;
+	top: 750px;
+	left: 45px;
+	z-index: 10;
+}
+#banner #left{
+	width: 300px;
+	margin-top: 50px;
+}
+#banner #left ul.list-img{
+	list-style-type: none;
+}
+#banner #left ul.list-img li img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+#banner #right{
+	margin-top: 50px;
+	width: 500px;
+	height: 500px;
+	background: red;
+}
+#banner #right img{
+	width: 500px;
+	height: 500px;
+}
+#footer #button{
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+#footer #button ul.list-button{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+#footer #button ul.list-button li{
+	background: red;
+	width: 80px;
+	height: 50px;
+	padding-top: 15px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+#footer #button ul.list-button li.active{
+	background: orange;
+}
+#tab-img{
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+#tab-img .popular ul.list-img{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+#tab-img .popular ul.list-img li img{
+	width: 250px;
+	height: 250px;
+}
+#best-sell,#new{
+	display: none;
+}
+.button-click input{
+	width: 100px;
+	height: 50px;
+	background: #ff0000;
+	border-radius: 5px;
+}

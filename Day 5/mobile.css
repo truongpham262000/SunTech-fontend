@@ -1,0 +1,53 @@
+.head{
+	margin-left: -30px;
+}
+.text-buy{
+	flex-direction: column-reverse;
+	text-align: center;
+}
+.text-buy .text{
+	width: inherit;
+}
+.text-buy .img-book{
+	align-content: flex-start;
+}
+.banner-book ul{
+	margin-right: 33px;
+}
+.banner-book ul .book-3 .book .text-circle{
+	margin-right: -48px;
+}
+.banner-book ul .book-3 .book .text-circle .div2{
+	width: 300px;
+}
+.informations h3{
+	font-size: 30px;
+}
+.informations .list-infor{
+	flex-direction: column;
+	font-size: 30px;
+	margin-left: 74px;
+}
+.infor-people .praise ul{
+	display: block;
+	width: unset;
+}
+.spend-book .spend{
+	margin-left: 113px;
+	width: 300px;
+}
+.spend-book .spend img{
+	margin-left: 70px;
+}
+.spend-book .spend button{
+	width: 250px;
+}
+.footer .bottom .border{
+	width: 0px;
+	background: unset;
+	flex-direction: column;
+	margin-left: 118px;
+}
+.footer .bottom .border .infor-ahmad{
+	width: 300px;
+}

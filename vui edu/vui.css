@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: segoe ui;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+#header{
+    background-color: #cccccc;
+    width: 100%;
+    height: 150px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+#header .name-port{
+    width: 680px;
+    font-size: 15px;
+    margin-left: 100px;
+}
+#header .name-port h1{
+    color: #00aa00;
+}
+#header .name-port h2{
+    color: red;
+}
+#header .communicate{
+    width: 600px;
+}
+#header .communicate ul.list-content{
+    float: right;
+    font-size: 17px;
+    list-style: none;
+    color: blue;
+    cursor: pointer;
+}
+#header .communicate ul.list-content li{
+    margin-bottom: 5px;
+}
+#header .communicate ul.list-content li .fa{
+    color: #00cc33;
+    margin-right: 10px;
+}
+#header .communicate ul.list-content li .fa-flag{
+    color: red;
+}
+#banner{
+    width: 100%;
+    margin: 0px auto;
+}
+#banner .menu-top{
+    height: 50px;
+    background-color: #0000aa;
+    display: flex;
+    align-items: center;
+}
+#banner .menu-top a.icon-home{
+    font-size: 18px;
+    width: 10%;
+    text-align: center;
+    color: #ff9900;
+}
+#banner .menu-top ul.menu-bar{
+    list-style: none;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#banner .menu-top ul.menu-bar li{
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#banner .menu-top ul.menu-bar li a:hover{
+    color: #ff9900;
+}#banner .menu-top ul.menu-bar li a i.fa{
+    margin-left: 5px;
+    font-size: 13px;
+}
+#banner .user{
+    width: 20%;
+    position: relative;
+}
+#banner .menu-top a.icon-user i.fa{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#banner .menu-top a.icon-user{
+    font-weight: bold;
+    transition: 0.4s;
+}
+#banner .menu-top a.icon-user:hover{
+    color: #ff9900;
+}
+.menu-dropdown ul.menu-drop{
+    position: absolute;
+    display: none;
+
+}
+.menu-dropdown ul.menu-drop li{
+    list-style: none;
+    background-color: #0000aa;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+.menu-dropdown ul.menu-drop li a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-dropdown ul.menu-drop li:last-child{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#banner .menu-top ul.menu-bar li.one:hover .menu-dropdown ul.menu-drop{
+    display: block;
+}
+.user .form-user{
+    display: none;
+}
+.user .form-user ul.user-passwork{
+    width: 300px;
+    position: absolute;
+    top: 37px;
+    left: -100px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    list-style: none;
+    margin-right: 100px;
+}
+.user .form-user ul.user-passwork li{
+    padding: 10px;
+}
+.user .form-user ul.user-passwork li span{
+    margin-right: 40px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.user .form-user ul.user-passwork li select{
+    width: 150px;
+    height: 30px;
+    margin-left: 18px;
+    border-radius: 5px;
+}
+.user .form-user ul.user-passwork li input{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.user .form-user ul.user-passwork li button{
+    width: 100px;
+    height: 30px;
+    background-color: #0000aa;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+}
+button:hover{
+    opacity: 0.7;
+}
+.user .form-user ul.user-passwork li a{
+    color: #000000;
+    text-decoration: underline;
+}
+.slide-form{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    background-color: #efefef;
+}
+.slide-form .slide-img{
+    width: 60%;
+    margin-left: 40px;
+}
+.slide-form .slide-img img{
+    width: 100%;
+    margin: 15px;
+    border: 10px solid #fff;
+}
+.slide-form .information{
+    width: 35%;
+}
+.slide-form .information ul.form-infor{
+    list-style: none;
+    text-align: justify;
+    margin-left: 100px;
+}
+.slide-form .information ul.form-infor li form{
+    margin-top: 20px;
+    padding: 10px;
+    width: 350px;
+    background-color: #fff;
+    margin-right: 50px;
+}
+.slide-form .information ul.form-infor li form h3{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.slide-form .information ul.form-infor li form strong{
+    font-size: 13px;
+}
+.slide-form .information ul.form-infor li form input{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 320px;
+    height: 30px;
+}
+.slide-form .information ul.form-infor li form textarea{
+    width: 320px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.slide-form .information ul.form-infor li form button{
+    width: 100px;
+    height: 30px;
+    background-color: #0000aa;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #fff;
+}
+.slide-form .information ul.form-infor li.form2{
+    width: 350px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.slide-form .information ul.form-infor li.form2 h1 a{
+    color: #0000aa;
+    padding: 20px;
+    font-size: 20px;
+}
+.slide-form .information ul.form-infor li.form2 hr{
+    margin-top: 10px;
+}
+.slide-form .information ul.form-infor li.form3{
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.slide-form .information ul.form-infor li.form3 h1 a{
+    color: #000000;
+    padding: 20px;
+    font-size: 15px;
+}
+.slide-form .information ul.form-infor li.form3 hr{
+    margin-top: 10px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000099;
+}
+#footer .logo-img{
+    width: 10%;
+}
+#footer .logo-img img{
+    width: 100%;
+    height: 100px;
+}
+#footer address{
+    width: 75%;
+}
+#footer address p{
+    padding: 10px;
+}
+#footer .infor{
+    width: 15%;
+    margin-top: -100px;
+}
+#footer .infor p{
+    float: right;
+    margin-right: 30px;
+}
+p{
+    font-size: 13px;
+    color: #fff;
+}

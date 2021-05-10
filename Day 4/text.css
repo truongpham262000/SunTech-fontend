@@ -1,0 +1,109 @@
+body{
+    padding: 0px;
+    margin: 0px auto;
+    width: 1000px;
+    font-family: time new roman;
+}
+#header{
+    width: 1000px;
+    height: 100px;
+}
+#header img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#header span h1{
+    padding-top: 27px;
+    color: #f66924;
+}
+#header span h1:after{
+    content: ' CAM KẾT 100% ĐẦU RA';
+}
+#menu-header{
+    width: 1000px;
+    height: 50px;
+    background-color: #4db618;
+}
+#menu-header .menu-bar li{
+    float: left;
+    list-style: none;
+    padding: 15px 35px 10px 35px;
+}
+#menu-header .menu-bar li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#menu-header .menu-bar li a:hover{
+    color: red;
+}
+#banner{
+    width: 1000px;
+}
+#banner .left{
+    float: left;
+    width: 700px;
+    height: 1000px;
+}
+#banner .left .left-1{
+    float: left;
+    width: 175px;
+    padding-right: 15px;
+}
+#banner .left .left-1 img{
+    width: 175px;
+    height: 175px;
+    padding: 10px;
+    float: left;
+    transition: 0.4s;
+}
+#banner .left .left-1 img:hover{
+    opacity: 0.5;
+}
+#banner .left .left-2 li{
+    list-style: none;
+    text-align: justify;
+    margin: 24px;
+}
+#banner .left .left-2 li:nth-child(4){
+    margin-top: 30px;
+}
+#banner .left .left-2 span{
+    padding: 20px;
+}
+#banner .left .left-2 .first-child{
+    padding-left: 0px; 
+}
+#banner .right{
+    float: right;
+    width: 300px;
+    height: 1000px;
+}
+#banner .right img{
+    width: 300px;
+    height: 140px;
+    padding: 10px;
+    float: right;
+}
+#banner .right a:first-child img{
+    height: 230px;
+}
+#banner .right a:nth-child(3) img{
+    height: 230px;
+}
+#footer{
+    clear: left;
+    width: 1000px;
+    height: 100px;
+    background-color: #0e2302;
+}
+#footer h2{
+    padding-top: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+#footer h2:after{
+    content: ' TẠI SUNTECH';
+} 

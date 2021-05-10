@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Use JavaScrip</title>
+	<link rel="stylesheet" type="text/css" href="file.css">
+</head>
+<body>
+	<div id="banner">
+		<div id="left">
+			<ul class="list-img">
+				<li><img src="./img/1.jpg" onclick="change('one')" id="one"></li>
+				<li><img src="./img/2.jpg" onclick="change('two')" id="two"></li>
+				<li><img src="./img/3.jpeg" onclick="change('three')" id="three"></li>
+				<li><img src="./img/4.jpg" onclick="change('four')" id="four"></li>
+			</ul>
+		</div>
+		<div id="right">
+			<img src="./img/4.jpg" id="img">
+		</div>
+	</div>
+	<div id="footer">
+		<div id="button">
+			<ul class="list-button">
+				<li onclick="tabbar('trand',this)" class="comment active">Phổ Biến</li>
+				<li onclick="tabbar('best-sell',this)" class="comment">Bán Chạy</li>
+				<li onclick="tabbar('new',this)" class="comment">Mới Nhất</li>
+			</ul>
+		</div>
+		<div id="tab-img">
+			<div class="popular" id="trand">
+				<ul class="list-img">
+					<li><img src="./img/1.jpg" onclick="showimg('one')" id="show1"></li>
+					<li><img src="./img/2.jpg" onclick="showimg('two')"></li>
+					<li><img src="./img/3.jpeg" onclick="showimg('three')"></li>
+					<li><img src="./img/4.jpg" onclick="showimg('four')"></li>
+					<li><img src="./img/5.jpg" onclick="showimg('five')"></li>
+					<li><img src="./img/2.jpg" onclick="showimg('six')"></li>
+				</ul>
+			</div>
+			<div class="popular" id="best-sell">
+				<ul class="list-img">
+					<li><img src="./img/4.jpg"></li>
+					<li><img src="./img/1.jpg"></li>
+					<li><img src="./img/5.jpg"></li>
+					<li><img src="./img/2.jpg"></li>
+					<li><img src="./img/3.jpeg"></li>
+					<li><img src="./img/2.jpg"></li>
+				</ul>
+			</div>
+			<div class="popular" id="new">
+				<ul class="list-img">
+					<li><img src="./img/5.jpg"></li>
+					<li><img src="./img/2.jpg"></li>
+					<li><img src="./img/4.jpg"></li>
+					<li><img src="./img/3.jpeg"></li>
+					<li><img src="./img/2.jpg"></li>
+					<li><img src="./img/1.jpg"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+		function change(id) {
+			let object =document.getElementById(id).getAttribute('src');
+			document.getElementById('img').setAttribute('src',object);
+		}
+		document.getElementById('banner').style.display = 'none';
+		function showimg(el) {
+			let show1 = document.getElementById('banner');
+			for(i = 0;i < show1.length;i++){
+					show1[i].style.display ='none';
+			}
+			show1.style.display ='flex';
+			show1.style.background ='orange';
+		}
+	</script>
+	<script src="file.js"></script>
+</body>
+</html>

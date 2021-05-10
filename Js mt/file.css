@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(86deg, #00c4d0 45%, #00e892 50%);
+}
+.screen{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.screen .overplay{
+    background: #fff;
+    width: 200px;
+    height: 50px;
+    position: relative;
+}
+.screen .input{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    font-size: 20px;
+    color: rgb(63,63,63);
+    z-index: 22;
+}
+.banner{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.items{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.items button{
+    background: #99ffff;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+.items button:hover{
+    background: #aaa;
+}
+.items .item1{
+    width: 100px;
+}
+.items .item18{
+    width: 100px;
+}
