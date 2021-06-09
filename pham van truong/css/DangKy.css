@@ -1,0 +1,90 @@
+section{
+	display: flex;
+}
+section .left{
+	width: 70%;
+	background-image: url(../img/border.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	border:  2px solid #990000;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin: 0px 15px 0px 15px;
+}
+section .left .top{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	font-size: 30px;
+	margin-top: 100px;
+	font-family: sans-serif;
+	
+}
+section .left .top h3{
+	width: 80%;
+	color: #990000;
+	border-bottom: 2px dashed #cccccc;
+}
+section .left .midder{
+	margin-top: 20px;
+	width: 100%;
+}
+section .left .midder{
+	width: 100%;
+	display: flex;
+	line-height: 40px;
+	font-size: 17px;
+}
+section .left .midder .label{
+	width: 40%;
+	text-align: right;
+	margin-right: 5px;
+	color: #000;
+}
+section .left .midder .input{
+	width: 60%;
+}
+section .left .midder .input input,select{
+	width: 250px;
+	padding: 2px;
+}
+section .left .midder .input input[type="radio"]{
+	width: unset;
+}
+section .left .midder .input input[type="button"]{
+	width: 100px;
+	height: 30px;
+	margin-left: 30px;
+	border-radius: 15px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #990000;
+	font-size: 12px;
+	box-shadow: -2px -2px 0.4px #BBBBBB;
+	transition: 0.4s;
+}
+section .left .midder .input input[type="button"]:hover{
+	background-color: #ff0000;
+}
+section .left .bottom{
+	width: 100%;
+	line-height: 30px;
+	color: #cccccc;
+	margin: 0px 10px 0px 25px;
+}
+section .left .bottom p{
+	font-size: 18px;
+	color: #000;
+}
+section .right{
+	width: 30%;
+}
+section .right .aside1 iframe{
+	width: 100%;
+	border: none;
+}
+section .right .aside2 iframe{
+	height: 750px;
+}

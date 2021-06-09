@@ -1,0 +1,110 @@
+content section{
+	width: 100%;
+	margin-bottom: 15px;
+}
+content section .left{
+	width: 75%;
+	border: none;
+	background: none;
+}
+content section .left .image-show{
+	width: 100%;
+	height: 630px;
+	background-image: url(../img/border.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	border: 2px solid #990000;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	display: flex;
+}
+content section .left .image-show .image-carousel{
+	width: 45%;
+	height: 100%;
+}
+content section .left .image-show .image-carousel .show{
+	width: 100%;
+	height: 70%;
+	text-align: center;
+	margin: 15px;
+}
+content section .left .image-show .image-carousel .best-sell{
+	width: 100%;
+	margin-left: 40px;
+}
+content section .left .image-show .image-carousel .best-sell .item{
+	border: 3px solid #cccccc;
+}
+.owl-carousel i{
+	top: 30px;
+	padding: 5px;
+	opacity: 1;
+}
+content section .left .image-show .image-carousel .show img{
+	width: 70%;
+	height: 100%;
+	border: 5px solid #cccccc;
+}
+content section .left .image-show .price{
+	width: 55%;
+	height: 100%;
+	margin-top: 15px;
+	font-size: 17px;
+	line-height: 30px;
+}
+content section .left .image-show .price .size{
+	margin-left: 50px;
+	padding: 5px;
+}
+content section .left .image-show .price .spend{
+	margin-left: 100px;
+	padding: 5px;
+}
+content section .left .image-show .price .spend i{
+	color: #ff9900;
+	margin-left: 15px;
+	font-size: 24px;
+}
+content section .left .fashion-new{
+	width: 100%;
+	margin-top: 20px;
+}
+content section .left .tab-list{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-top:  2px solid #990000;
+	border-bottom:  2px solid #990000;
+	display: flex;
+	font-weight: bold;
+}
+content section .left .tab-list a{
+	width: 30%;
+	margin-left: 20px;
+	color: #990000;
+	font-size: 20px;
+}
+content section .left .tab-list a.active{
+	text-align: right;
+	margin-right: 20px;
+}
+content section .left .tab-list ul{
+	width: 40%;
+	height: 100%;
+	line-height: 40px;
+	list-style: none;
+	display: inline-flex;
+}
+content section .left .tab-list ul.list li{
+	width: 50px;
+	height: 100%;
+	border-right: 1px solid #990000;
+	text-align: center;
+}
+content section .left .tab-list ul.list li.active{
+	background-color: #EE0000;
+}
+section .right .aside2 iframe{
+	height: 1290px;
+}
