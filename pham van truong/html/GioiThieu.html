@@ -13,8 +13,32 @@
     <link rel="stylesheet" type="text/css" href="../css/slide.css">
     <link rel="stylesheet" type="text/css" href="../css/DangKy.css">
     <link rel="stylesheet" type="text/css" href="../css/GioiThieu.css">
+    <link rel="stylesheet" type="text/css" href="../css/User.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 415px)" href="../css/reponsive.css">
 </head>
 <body>
+    <!-- show box user -->
+    <div class="show-user wow bounceInDown">
+        <div class="login">
+            <div class="exit">
+                <h3>ĐĂNG NHẬP</h3>
+                <span class="fa fa-times "></span>
+            </div>
+            <div class="form_user">
+                <div class="label">
+                    <label for="name" class="fa fa-user"></label><br>
+                    <label for="pass" class="fa fa-lock"></label><br>
+                </div>
+                <div class="input">
+                    <input type="text" name="dangky" placeholder="Tên tài khoản" id="name"><br>
+                    <input type="password" name="dangky" placeholder="Mật khẩu" id="pass"><br>
+                    <input type="submit" name="dangky" value="Đăng nhập" id="Name_pass">
+                </div>
+            </div>
+            <p>Quên mật khẩu ? <a href="DangKy.html">Đăng ký</a></p>
+        </div>
+    </div>
+    <!-- end show box user -->
     <!--start header -->
     <header>
         <div class="logo wow bounceInLeft" data-wow-delay="0.3s">
@@ -33,6 +57,9 @@
     <!--end header -->
     <!--Menu nav -->
     <nav class="wow bounceInLeft" data-wow-delay="0.6s">
+        <div class="menu-responsive">
+            <i class="fa fa-bars respon"></i>
+        </div>
         <ul>
             <li class="active"><a href="TrangChu.html">Trang chủ</a></li>
             <li><a href="ChiTietSP.html">Quần áo nữ</a></li>

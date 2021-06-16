@@ -1,0 +1,106 @@
+body .show-user .login{
+   width: 100%;
+}
+header .logo{
+    display: none;
+}
+header text{
+    width: 100%;
+}
+header .text .shop{
+    width: 60%;
+}
+header .text .shop h3{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+header .text .shop h3 small{
+    display: none;
+}
+header .text .user{
+    width: 40%;
+}
+header .text .user input{
+    width: 50px;
+    font-size: 9px;
+}
+nav .menu-responsive{
+    display: block;
+    margin-left: 15px;
+}
+nav{
+    position: relative;
+}
+nav ul{
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 39px;
+    z-index: 99;
+    display: none;
+}
+nav ul li.active{
+    border-radius: 0px;
+}
+nav ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: left;
+    background-color: #990000;
+    border-bottom: 1px solid #fff;
+}
+nav ul li a{
+    margin-left: 30px;
+    font-style: italic;
+}
+nav .search{
+    width: 100%;
+    margin-right: 40px;
+}
+nav .search input{
+    border-radius: 15px;
+    outline: none;
+}
+content>aside{
+    display: none;
+}
+content section{
+    width: 100%;
+}
+content section .slider{
+    height: 250px;
+}
+content section .slider .container ul{
+    display: none;
+}
+content section .slider .container a{
+    top: 100px;
+}
+content section .fashion-girls .bottom h3{
+    font-size: 24px;
+}
+content section .fashion-boys .best-fashion .item1{
+    width: 50%;
+}
+footer{
+    flex-direction: column-reverse;
+    height: 100px;
+}
+footer .right{
+    width: 100%;
+    height: 50px;
+}
+footer .right a img{
+    width: 20%;
+}
+footer .left{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+footer .left p{
+    font-size: 11px;
+    margin-left: 0px;
+}

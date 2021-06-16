@@ -1,147 +1,174 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>DangKy.html</title>
-        <link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
-        <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
-        <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.min.css">
-        <link rel="stylesheet" type="text/css" href="../wow/animate.css">
-        <link rel="stylesheet" type="text/css" href="../css/trangchu.css">
-        <link rel="stylesheet" type="text/css" href="../css/slide.css">
-        <link rel="stylesheet" type="text/css" href="../css/DangKy.css">
-    </head>
-    <body>
-        <!--start header -->
-        <header>
-            <div class="logo wow bounceInLeft" data-wow-delay="0.3s">
-                <img src="../img/logo.png">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>DangKy.html</title>
+    <link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="../wow/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/trangchu.css">
+    <link rel="stylesheet" type="text/css" href="../css/slide.css">
+    <link rel="stylesheet" type="text/css" href="../css/DangKy.css">
+    <link rel="stylesheet" type="text/css" href="../css/User.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 415px)" href="../css/reponsive.css">
+</head>
+<body>
+    <!-- show box user -->
+    <div class="show-user wow bounceInDown">
+        <div class="login">
+            <div class="exit">
+                <h3>ĐĂNG NHẬP</h3>
+                <span class="fa fa-times "></span>
             </div>
-            <div class="text">
-                <div class="shop wow bounceInLeft" data-wow-delay="0.3s">
-                    <h3>Shop<span> Thiên Thanh</span> <small>THỜI TRANG NAM NỮ</small></h3>
+            <div class="form_user">
+                <div class="label">
+                    <label for="name" class="fa fa-user"></label><br>
+                    <label for="pass" class="fa fa-lock"></label><br>
                 </div>
-                <div class="user wow bounceInRight" data-wow-delay="0.3s">
-                    <input type="submit" name="DangNhap" value="Đăng nhập" id="DangNhap">
-                    <input type="submit" name="DangKy" value="Đăng ký" id="DangKy">
+                <div class="input">
+                    <input type="text" name="dangky" placeholder="Tên tài khoản" id="name"><br>
+                    <input type="password" name="dangky" placeholder="Mật khẩu" id="pass"><br>
+                    <input type="submit" name="dangky" value="Đăng nhập" id="Name_pass">
                 </div>
             </div>
-        </header>
-        <!--end header -->
-        <!--Menu nav -->
-        <nav class="wow bounceInLeft" data-wow-delay="0.6s">
-            <ul>
-                <li class="active"><a href="TrangChu.html">Trang chủ</a></li>
-                <li><a href="ChiTietSP.html">Quần áo nữ</a></li>
-                <li><a href="TrangChu.html">Quần áo nam</a></li>
-                <li>
-                    <a href="#">Phụ kiện</a>
-                    <div class="menu-drop">
-                        <ul class="list-drop">
-                            <li><a href="#">Mắt kính</a></li>
-                            <li><a href="#">Dây nịt</a></li>
-                            <li><a href="#">Giỏ xách</a></li>
-                            <li><a href="#">Nón</a></li>
-                            <li><a href="#">giày dép</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="#">Tin tức</a></li>
-                <li><a href="#">Sự kiện</a></li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i>Liên hệ</a></li>
-            </ul>
-            <div class="search">
-                <input type="text" name="search" id="txtTim" placeholder="Tên sản phẩm">
-                <span class="fa fa-search" id="btntim" title="Tìm sản phẩm"></span>
+            <p>Quên mật khẩu ? <a href="DangKy.html">Đăng ký</a></p>
+        </div>
+    </div>
+    <!-- end show box user -->
+    <!--start header -->
+    <header>
+        <div class="logo wow bounceInLeft" data-wow-delay="0.3s">
+            <img src="../img/logo.png">
+        </div>
+        <div class="text">
+            <div class="shop wow bounceInLeft" data-wow-delay="0.3s">
+                <h3>Shop<span> Thiên Thanh</span> <small>THỜI TRANG NAM NỮ</small></h3>
             </div>
-        </nav>
-        <!-- end nav -->
-        <!--content slide -->
-        <content>
-            <aside class="wow bounceInLeft" data-wow-delay="0.7s">
-                <div class="asidebar1">
-                    <iframe src="SanPhamMoi.html" scrolling="no"></iframe>
-                </div>
-                <div class="asidebar2">
-                    <iframe src="HoTroOnline.html" scrolling="no"></iframe>
-                </div>
-                <div class="asidebar3">
-                     <iframe src="ThongKe.html" scrolling="no"></iframe>
-                </div>
-            </aside>
-            <section class="wow bounceInUp" data-wow-delay="0.8s">
-                <aticle class="left">
-                    <div class="top">
-                        <h3>Đăng ký thành viên mới</h3>
-                    </div>
-                    <div class="midder">
-                        <div class="label">
-                            <label for="input1">Tên đăng nhập: </label><br>
-                            <label for="input2">Mật khẩu: </label><br>
-                            <label for="input3">Nhập mật khẩu: </label><br>
-                            <label for="input4">Họ và tên: </label><br>
-                            <label for="input5">Giới tính: </label><br>
-                            <label for="input7">Ngày sinh: </label><br>
-                            <label for="input8">Ngề nghiệp: </label><br>
-                            <label for="input9">Email: </label><br>
-                            <label for="input10">Điện thoại: </label><br>
-                            <label for="input11">Ghi chú: </label>
-                        </div>
-                        <div class="input">
-                            <input type="text" name="hoten" id="input1" placeholder="Nhập họ tên" required><br>
-                            <input type="password" name="password" id="input2" placeholder="Nhập mật khẩu" required><br>
-                            <input type="password" name="password" id="input3" placeholder="Nhập mật khẩu" required><br>
-                            <input type="text" name="hovaten" id="input4" placeholder="Nhập họ và tên" required><br>
-                            <input type="radio" name="check" value="Nam" id="input5" checked>
-                            <label for="input5">Nam</label>
-                            <input type="radio" name="check" value="Nữ" id="input6">
-                            <label for="input6">Nữ</label><br>
-                            <input type="date" name="date" id="input7" required><br>
-                            <select id="input8">
-                                <option>--- Chọn trong danh sách ---</option>
-                                <option value="Công nhân">Công Nhân</option>
-                                <option value="Kỹ sư">Kỹ sư</option>
-                                <option value="Nhân viên">Nhân viên</option>
-                            </select><br>
-                            <input type="email" name="email" id="input9" placeholder="E-mail" required><br>
-                            <input type="text" name="phonenumber" id="input10" placeholder="Phone number" required><br>
-                            <textarea rows="5" cols="32" id="input11"></textarea><br>
-                            <input type="button" name="submit" value="Chấp nhận" id="submit">
-                        </div>
-                    </div>
-                    <div class="bottom">
-                        [Thông tin xác nhận]
-                    </div>
-                </aticle>
-                <article class="right">
-                    <div class="aside1">
-                        <iframe src="TrangGioHang.html" scrolling="no"></iframe>
-                    </div>
-                    <div class="aside2 aside1">
-                        <iframe src="TinThoiTrang.html" scrolling="auto"></iframe>
-                    </div>
-                </article>
-            </section>
-        </content>
-        <!-- end content slide -->
-        <!-- start footer -->
-        <footer class="wow bounceInLeft" data-wow-delay="0.9s">
-            <div class="left">
-                <p><i class="fa fa-copyright"></i> 2021 All Rights Reserved . Design By <a href="http://alphatek.edu.vn">Alphatek Company</a></p>
+            <div class="user wow bounceInRight" data-wow-delay="0.3s">
+                <input type="submit" name="DangNhap" value="Đăng nhập" id="DangNhap">
+                <input type="submit" name="DangKy" value="Đăng ký" id="DangKy">
             </div>
-            <div class="right">
-                <a href="http://facebook.com" class="img1"><img src="../img/facebook.png" alt="load file...." class="active"></a>
-                <a href="http://youtobe.com"><img src="../img/youtobe.png" alt="load file...."></a>
+        </div>
+    </header>
+    <!--end header -->
+    <!--Menu nav -->
+    <nav class="wow bounceInLeft" data-wow-delay="0.6s">
+        <div class="menu-responsive">
+            <i class="fa fa-bars respon"></i>
+        </div>
+        <ul>
+            <li class="active"><a href="TrangChu.html">Trang chủ</a></li>
+            <li><a href="ChiTietSP.html">Quần áo nữ</a></li>
+            <li><a href="TrangChu.html">Quần áo nam</a></li>
+            <li>
+                <a href="#">Phụ kiện</a>
+                <div class="menu-drop">
+                    <ul class="list-drop">
+                        <li><a href="#">Mắt kính</a></li>
+                        <li><a href="#">Dây nịt</a></li>
+                        <li><a href="#">Giỏ xách</a></li>
+                        <li><a href="#">Nón</a></li>
+                        <li><a href="#">giày dép</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Sự kiện</a></li>
+            <li><a href="#"><i class="fa fa-envelope-o"></i>Liên hệ</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="search" id="txtTim" placeholder="Tên sản phẩm">
+            <span class="fa fa-search" id="btntim" title="Tìm sản phẩm"></span>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <!--content slide -->
+    <content>
+        <aside class="wow bounceInLeft" data-wow-delay="0.7s">
+            <div class="asidebar1">
+                <iframe src="SanPhamMoi.html" scrolling="no"></iframe>
             </div>
-        </footer>
-        <!-- end footer -->
-        <script src="../js/jquery-3.6.0.min.js"></script>
-        <script src="../owlcarousel/owl.carousel.min.js"></script>
-        <script src="../js/jquery.fancybox.min.js"></script>
-        <script src="../wow/wow.min.js"></script>
-        <script src="../js/trangchu.js"></script>
-        <script src="../js/DangKy.js"></script>
-    </body>
+            <div class="asidebar2">
+                <iframe src="HoTroOnline.html" scrolling="no"></iframe>
+            </div>
+            <div class="asidebar3">
+                 <iframe src="ThongKe.html" scrolling="no"></iframe>
+            </div>
+        </aside>
+        <section class="wow bounceInUp" data-wow-delay="0.8s">
+            <aticle class="left">
+                <div class="top">
+                    <h3>Đăng ký thành viên mới</h3>
+                </div>
+                <div class="midder">
+                    <div class="label">
+                        <label for="input1">Tên đăng nhập: </label><br>
+                        <label for="input2">Mật khẩu: </label><br>
+                        <label for="input3">Nhập mật khẩu: </label><br>
+                        <label for="input4">Họ và tên: </label><br>
+                        <label for="input5">Giới tính: </label><br>
+                        <label for="input7">Ngày sinh: </label><br>
+                        <label for="input8">Ngề nghiệp: </label><br>
+                        <label for="input9">Email: </label><br>
+                        <label for="input10">Điện thoại: </label><br>
+                        <label for="input11">Ghi chú: </label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="hoten" id="input1" placeholder="Nhập họ tên" required><br>
+                        <input type="password" name="password" id="input2" placeholder="Nhập mật khẩu" required><br>
+                        <input type="password" name="password" id="input3" placeholder="Nhập mật khẩu" required><br>
+                        <input type="text" name="hovaten" id="input4" placeholder="Nhập họ và tên" required><br>
+                        <input type="radio" name="check" value="Nam" id="input5" checked>
+                        <label for="input5">Nam</label>
+                        <input type="radio" name="check" value="Nữ" id="input6">
+                        <label for="input6">Nữ</label><br>
+                        <input type="date" name="date" id="input7" required><br>
+                        <select id="input8">
+                            <option>--- Chọn trong danh sách ---</option>
+                            <option value="Công nhân">Công Nhân</option>
+                            <option value="Kỹ sư">Kỹ sư</option>
+                            <option value="Nhân viên">Nhân viên</option>
+                        </select><br>
+                        <input type="email" name="email" id="input9" placeholder="E-mail" required><br>
+                        <input type="text" name="phonenumber" id="input10" placeholder="Phone number" required><br>
+                        <textarea rows="5" cols="32" id="input11"></textarea><br>
+                        <input type="button" name="submit" value="Chấp nhận" id="submit">
+                    </div>
+                </div>
+                <div class="bottom">
+                    [Thông tin xác nhận]
+                </div>
+            </aticle>
+            <article class="right">
+                <div class="aside1">
+                    <iframe src="TrangGioHang.html" scrolling="no"></iframe>
+                </div>
+                <div class="aside2 aside1">
+                    <iframe src="TinThoiTrang.html" scrolling="auto"></iframe>
+                </div>
+            </article>
+        </section>
+    </content>
+    <!-- end content slide -->
+    <!-- start footer -->
+    <footer class="wow bounceInLeft" data-wow-delay="0.9s">
+        <div class="left">
+            <p><i class="fa fa-copyright"></i> 2021 All Rights Reserved . Design By <a href="http://alphatek.edu.vn">Alphatek Company</a></p>
+        </div>
+        <div class="right">
+            <a href="http://facebook.com" class="img1"><img src="../img/facebook.png" alt="load file...." class="active"></a>
+            <a href="http://youtobe.com"><img src="../img/youtobe.png" alt="load file...."></a>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../owlcarousel/owl.carousel.min.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
+    <script src="../wow/wow.min.js"></script>
+    <script src="../js/trangchu.js"></script>
+    <script src="../js/DangKy.js"></script>
+</body>
 </html>

@@ -1,5 +1,26 @@
 $(document).ready(function () {
-//slider
+    // form user
+    $('#Name_pass').click(function () {
+        if($('#name').val() == 'phamvantruong'){
+            if($('#pass').val() == '26022000'){
+                $('.show-user').fadeOut(1000);
+                alert('Đăng nhập thành công');
+            } else {
+                alert('Mật khẩu không chính xác');
+            }
+        } else {
+            alert('Tài khoản hoặc mật khẩu không chính xác');
+        }
+    });
+    // sự kiện ấn nút đăng nhập
+    $('#DangNhap').click(function () {
+        $('.show-user').fadeIn(1000);
+    });
+    // sự kiện nut exit
+    $('.exit span').click(function () {
+        $('.show-user').fadeOut(1000);
+    });
+    //slider bar
     $('.prev').click(function () {
         $("#image_" + anhhientai).stop().fadeOut(1000);
         giam_anh();
@@ -67,10 +88,6 @@ $(document).ready(function () {
     $('#DangKy').click(function () {
         window.open('DangKy.html','_self');
     });
-    // sự kiện ấn nút đăng nhập
-    $('#DangNhap').click(function () {
-        window.open('user.html','_self');
-    });
     // trang giới thiệu
     $('.shop').click(function () {
         window.open('GioiThieu.html','_self');
@@ -87,6 +104,10 @@ $(document).ready(function () {
     // fancy box show
 
     $('.item1 .image a').fancybox();
+    //responsive menu
+    $('.respon').click(function () {
+       $('nav ul').fadeToggle('1000');
+    });
 });
 // wow.js
 new WOW().init();
