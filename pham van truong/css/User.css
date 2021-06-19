@@ -5,7 +5,7 @@
 	border-radius: 5px;
 	position: absolute;
 	top: 200px;
-	z-index: 9999999;
+	z-index: 99999999;
 	border:  5px solid rgba(255, 255, 255, 0.4);
 	background: #fff;
 	position: relative;
@@ -24,6 +24,7 @@
 .login .exit span{
 	color: #990000;
 	font-size: 22px;
+	cursor: pointer;
 }
 .form_user{
 	line-height: 40px;
@@ -59,7 +60,7 @@
 	border-bottom: 2px solid;
 	background: rgba(255, 255, 255, 0);
 }
-.form_user .input input[type="submit"]{
+.form_user .input input[type="button"]{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	width: 100px;
@@ -71,7 +72,8 @@
 	outline: none;
 	box-shadow: 2px 2px 0.3px #Dddddd;
 	transition: 0.4s;
+	cursor: pointer;
 }
-.form_user .input input[type="submit"]:hover{
+.form_user .input input[type="button"]:hover{
 	background-color: #EE0000;
 }

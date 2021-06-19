@@ -7,9 +7,11 @@ $(document).ready(function () {
                 alert('Đăng nhập thành công');
             } else {
                 alert('Mật khẩu không chính xác');
+                window.onload('none');
             }
         } else {
             alert('Tài khoản hoặc mật khẩu không chính xác');
+            window.onload('none');
         }
     });
     // sự kiện ấn nút đăng nhập
@@ -50,6 +52,11 @@ $(document).ready(function () {
     window.setInterval(function () {
         $('.next').click();
     },4000);
+    //nav active
+    $('nav ul li').click(function () {
+        $('nav ul li').removeClass('active');
+        $(this).addClass('active');
+    });
     //owl carousel
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -95,11 +102,16 @@ $(document).ready(function () {
     //input search 
     $('.search #btntim').click(function () {
         var text = $('#txtTim').val();
-        var chuoi ="thien thanh";
-        if(text === chuoi)
-            alert('đã tìm thấy');
-        else
-            alert('không có sản phẩm này');
+        var chuoi =["thiên thanh","quần áo","shop","quần áo nam","quần áo nữ","thời trang","áo sơ mi"];
+        for(var i = 0;i <= chuoi.length;i++){
+            if(text.toLowerCase() == chuoi[0]||text.toLowerCase() == chuoi[1]||text.toLowerCase() == chuoi[2]||text.toLowerCase() == chuoi[3]||text.toLowerCase() == chuoi[4]||text.toLowerCase() == chuoi[5]||text.toLowerCase() == chuoi[6]){
+                alert('đã tìm thấy');
+                break;
+            } else {
+                alert('không có sản phẩm này');
+            }
+            break;
+        }
     });
     // fancy box show
 

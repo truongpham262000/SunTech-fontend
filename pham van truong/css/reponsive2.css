@@ -1,0 +1,35 @@
+content section .left{
+    width: 100%;
+}
+content section .left .image-show{
+    height: auto;
+    border-radius: 0px;
+    margin: 0px;
+}
+content section .left .image-show .image-carousel .best-sell{
+    width: 70%;
+    margin-left: 0px;
+    padding-left: 30px;
+}
+content section .left .image-show .image-carousel .show{
+    margin: 0px;
+}
+.owl-carousel i{
+    top: 30px;
+}
+content section .left .image-show .price{
+    font-size: 13px;
+}
+content section .left .image-show .price .size{
+    margin-left: 0px;
+}
+content section .left .image-show .price .spend{
+    margin-left: 0px;
+}
+content section .left .image-show .price .spend i{
+    font-size: 18px;
+    margin-left: 0px;
+}
+content section .left .tab-list{
+    display: none;
+}

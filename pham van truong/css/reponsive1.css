@@ -1,0 +1,48 @@
+content section{
+    flex-direction: column;
+}
+section .left{
+    width: 100%;
+    margin: 0px;
+}
+section .left .image-top h3{
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 10px;
+}
+section .left .animate{
+    margin-top: 15px;
+}
+section .left .animate .rotate{
+    width: 20%;
+    height: 50%;
+}
+section .left .animate .rotate h4{
+    font-size: 10px;
+    top: 20px;
+}
+section .left .infor{
+    margin-top: 10px;
+}
+section .left .infor .infor-top p{
+    font-size: 14px;
+    margin: 0px;
+}
+section .left .infor .infor-bottom h3{
+    font-size: 16px;
+}
+section .left .infor .infor-bottom ul{
+    margin-left: 15px;
+}
+section .right{
+    width: 100%;
+}
+section .left .infor .infor-bottom ol{
+    margin: 0px;
+}
+section .right .hide{
+    display: none;
+}
+section .right .aside2 iframe{
+    height: 700px;
+}
