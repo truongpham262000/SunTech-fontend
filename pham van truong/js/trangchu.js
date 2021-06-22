@@ -106,7 +106,6 @@ $(document).ready(function () {
         for(var i = 0;i <= chuoi.length;i++){
             if(text.toLowerCase() == chuoi[0]||text.toLowerCase() == chuoi[1]||text.toLowerCase() == chuoi[2]||text.toLowerCase() == chuoi[3]||text.toLowerCase() == chuoi[4]||text.toLowerCase() == chuoi[5]||text.toLowerCase() == chuoi[6]){
                 alert('đã tìm thấy');
-                break;
             } else {
                 alert('không có sản phẩm này');
             }
