@@ -147,7 +147,7 @@ header .container{
     z-index: 5;
     opacity: 0;
 }
-.header-right-bottom-nav > ul > li:nth-child(2)::before,.header-right-bottom-nav > ul > li:last-child::before{
+.header-right-bottom-nav > ul > li:nth-child(2)::before,.header-right-bottom-nav > ul > li:nth-child(4)::before{
 	position: relative;
 	left: 40%;
 }
