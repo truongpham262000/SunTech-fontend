@@ -143,7 +143,7 @@ header .container{
     content: url('../img/icon-hover.png');
     position: relative;
     top: 23px;
-    left: 25%;
+    left: 28%;
     z-index: 5;
     opacity: 0;
 }
