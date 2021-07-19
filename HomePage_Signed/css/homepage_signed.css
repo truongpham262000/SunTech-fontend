@@ -447,9 +447,14 @@ content{
 }
 .content-feature-product-img{
 	width: 100%;
+	overflow: hidden;
 }
 .content-feature-product-img img{
 	width: 100%;
+	transition: ease-in 0.4s;
+}
+.content-feature-product-img:hover img{
+	transform: scale(1.6, 1.6);
 }
 .content-feature-product-name {
     width: 100%;
