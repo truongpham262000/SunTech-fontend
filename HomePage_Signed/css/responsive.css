@@ -1,0 +1,702 @@
+@media only screen and (max-width: 1473.6px) {
+	.content-slider-radio {
+	    right: 20px;
+	}
+	.content-type-of-food-list ul::before {
+	    content: url(../img/image-corn.png);
+	    position: absolute;
+	    left: 0px;
+	    bottom: 60%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul::after {
+	    content: url(../img/image-corn1.png);
+	    position: absolute;
+	    top: -13%;
+	    right: 0;
+	    z-index: -3;
+	}
+}
+
+@media only screen and (max-width: 1279.6px) {
+	.header-right-bottom-nav > ul > li::before {
+	    content: url(../img/icon-hover.png);
+	    position: relative;
+	    top: 26px;
+	    left: 31%;
+	    z-index: 5;
+	    opacity: 0;
+	}
+	.menu-drop-down {
+	    width: 100%;
+	}
+	.content-slider-desc {
+	    font-size: 60px;
+	    line-height: 65px;
+	    top: 25%;
+	}
+	.content-slider-desc p {
+	    width: 53%;
+	}
+	.content-slider-desc p strong {
+	    font-size: 50px;
+	}
+	.content-slider-desc input {
+	    width: 25%;
+	    padding: 13px;
+	    font-size: 11px;
+	    margin: 0;
+	}
+	.content-slider-radio {
+	    right: 25px;
+	}
+	.content-type-canner-food img {
+	    top: -17%;
+	    width: 35%;
+	}
+}
+@media only screen and (max-width: 1160.98px) {
+	.content-type-of-food-list ul li p {
+	    font-size: 19px;
+	}
+	.content-slider-desc {
+	    left: 15%;
+	}
+}
+@media only screen and (max-width: 1098.98px) {
+	.header-right-bottom-nav > ul {
+	    width: 75%;
+	    padding: 0;
+	}
+	.header-right-bottom-nav > ul li{
+	    width: unset;
+	}
+	.header-right-bottom-nav > ul > li::before {
+	    content: url(../img/icon-hover.png);
+	    position: relative;
+	    top: 23px;
+	    left: 53%;
+	    z-index: 5;
+	    opacity: 0;
+	}
+	.content-slider-desc {
+	    left: 10%;
+	}
+}
+@media only screen and (max-width: 1025.98px) {
+	.header-right-bottom-nav > ul {
+	    width: 80%;
+	    padding: 0;
+	}
+	.content-slider-desc {
+	    left: 4%;
+	}
+	.menu-drop-down {
+	    width: 100%;
+	}
+	.menu-drop-down ul {
+	    padding: 15px;
+	    font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 991.98px) {
+	.header-left-logo {
+	    width: 4%;
+	}
+	.header-left-logo img {
+	    width: 13%;
+	    position: fixed;
+	    left: 0;
+	}
+	.header-right-top-language {
+	    width: 40%;
+	}
+	.content-type-of-food-list ul li p {
+	    font-size: 16px;
+	}
+	.content-type-of-food-list ul li::before {
+	    content: "";
+	    width: 0;
+	    height: 0;
+	    position: absolute;
+	    top: 10px;
+	    left: 10px;
+	    background-color: transparent;
+	    border: 3px solid transparent;
+	}
+	.content-type-of-food-list ul li::after {
+	    content: "";
+	    width: 0;
+	    height: 0;
+	    position: absolute;
+	    top: 10px;
+	    left: 10px;
+	    background-color: transparent;
+	    border: 3px solid transparent;
+	}
+}
+
+@media only screen and (max-width: 786.98px) {
+	.header-right-top-search {
+	    width: 90%;
+	}
+	.content-slider-desc {
+	    font-size: 50px;
+	    line-height: 55px;
+	}
+	.content-slider-desc p strong {
+	    font-size: 40px;
+	}
+	.content-slider-desc input {
+	    width: 30%;
+	}
+	.content-slider-radio {
+		top: 36%;
+	    right: 15px;
+	}
+	.content-slider-radio > ul > li {
+	    padding: 7px;
+	    margin: 10px 0;
+	}
+	.content-type-canner-food img {
+	    top: -16%;
+	}
+	.content-type-of-food-list ul li p {
+	    font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 767.98px) {
+	header .container {
+	    flex-direction: column;
+	}
+	.header-left-logo{
+		width: 20%;
+	}
+	.header-left-logo img {
+	    width: 100%;
+	    position: unset;
+	}
+	.header-right {
+	    width: 100%;
+	    padding: 15px 0;
+	}
+	.header-right-top {
+	    flex-direction: column-reverse;
+	}
+	.header-right-top-search {
+	    display: none;
+	}
+	.header-right-top-language {
+	    width: 100%;
+	    padding: 15px 10px;
+	}
+	.header-right-top-language ul li:nth-child(3),.header-right-top-language ul li:nth-child(4){
+		display: none;
+	}
+	.header-right-top-language .menu-responsive{
+		width: 10%;
+		display: block;
+	}
+	.header-right-top-language ul {
+	    flex-direction: row-reverse;
+	}
+	.header-right-top-language ul li {
+	    width: 15%;
+	}
+	.header-right-top-language ul li:last-child{
+		width: 70%;
+		text-align: left;
+	}
+	.header-right-bottom-nav .header-right-top-language{
+		display: block;
+	}
+	.header-right-bottom-nav .header-right-top-language ul li{
+		width: 6%;
+		text-align: center;
+	}
+	.header-right-bottom-nav .header-right-bottom-nav-search{
+		width: 100%;
+		display: inline-block;
+		position: relative;
+	}
+	.header-right-bottom-nav .header-right-bottom-nav-search input{
+		width: 100%;
+		padding: 15px 20px;
+		outline: none;
+		border: 1px solid #cccccc;
+		border-radius: 25px;
+	}
+	.header-right-bottom-nav .header-right-bottom-nav-search input::placeholder{
+		color: #8e8e8e;
+		font-size: 15px;
+	}
+	.header-right-bottom-nav .header-right-bottom-nav-search label {
+	    position: absolute;
+	    bottom: 12%;
+	    right: 3%;
+	    font-size: 25px;
+	    color: #555555;
+	}
+	.header-right-bottom-nav .header-right-bottom-nav-search label:hover {
+	    color: #dd8939;
+		transition: ease-in 0.3s;
+	}
+	.header-right-bottom-nav {
+		padding: 15px 0;
+	    display: none;
+	    position: absolute;
+	    left: 0;
+	    z-index: 99;
+	    background-color: #eeeeee;
+	}
+	.header-right-bottom-nav > ul {
+	    width: 100%;
+	    padding: 0 15px;
+	    flex-direction: column;
+	}
+	.header-right-bottom-nav > ul > li{
+		width: 100%;
+		text-align: left;
+		border-bottom: 1px solid #cccccc;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.header-right-bottom-nav > ul > li::before{
+		display: none;
+	}
+	.header-right-bottom-nav > ul > li a{
+		width: 90%;
+	}
+	.click-drop-menu{
+		text-align: center;
+		width: 10%;
+		position: absolute;
+		right: 5%;
+		display: block;
+	}
+	.header-right-bottom-nav > ul > li:last-child{
+		display: block;
+		border: none;
+	}
+	.header-right-bottom-nav > ul > li:last-child .header-right-top-language{
+		padding: 0;
+	}
+	.header-right-top-search input {
+		margin: 0;
+	}
+	.header-right-top-search label {
+	    right: 3%;
+	    top: 92%;
+	}
+	.menu-drop-down {
+	    position: unset;
+	    font-weight: lighter;
+	    background-color: transparent;
+	}
+	.menu-drop-down ul {
+		padding: 0;
+		flex-direction: column;
+	}
+	.menu-drop-down ul li{
+		width: 100%;
+		padding: 10px 0;
+		border-bottom: 1px solid #cccccc;
+	}
+	.menu-drop-down ul li:last-child{
+		border: none;
+	}
+	.menu-drop-down ul li a{
+		margin-left: 10%;
+		color: #222222;
+	}
+	.header-right-bottom-nav > ul > li:hover .menu-drop-down{
+		display: none;
+		transition: unset;
+	}
+	.content-slider-desc {
+	    font-size: 38px;
+	    line-height: 45px;
+	    left: 7%;
+	}
+	.content-slider-desc p strong {
+	    font-size: 30px;
+	}
+	.content-slider-desc input {
+	    width: 37%;
+	    font-size: 10px;
+	    padding: 10px;
+	}
+	.content-slider-radio {
+		top: 32%;
+	    right: 12px;
+	}
+	.content-slider-radio > ul > li {
+	    padding: 7px;
+	    margin: 15px 0;
+	}
+	.content-type-canner-food{
+		padding: 50px 0;
+	}
+	.content-type-canner-food img {
+	    top: -8%;
+	    right: 30%;
+	    width: 35%;
+	}
+	.content-type-of-food-list ul li p {
+	    font-size: 22px;
+	    bottom: 40px;
+	    right: 60px;
+	}
+	.content-type-of-food-list ul::before {
+	    content: url(../img/image-corn.png);
+	    position: absolute;
+	    left: 0px;
+	    bottom: 75%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul::after {
+	    content: url(../img/image-corn1.png);
+	    position: absolute;
+	    top: -15%;
+	    right: 2%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul li {
+	    width: 50%;
+	}
+	.content-feature-product-list .product {
+	    width: 50%;
+	    padding: 15px;
+	}
+	.content-feature-product-title .title {
+	    font-size: 23px;
+	}
+	.footer-support {
+	    padding: 0px 25px;
+	}
+	.footer-information {
+	    border-bottom: 0;
+	    position: unset;
+	    flex-direction: column-reverse;
+	}
+	.footer-information-subscribe {
+	    width: 100%;
+	    text-align: center;
+	    padding: 15px 0;
+	    border-bottom: 1px solid #dd8939;
+	}
+	.footer-information-subscribe::before {
+	    display: none;
+	}
+	.footer-information-follow {
+	    width: 100%;
+	    text-align: center;
+	    padding: 20px 0;
+	    border-bottom: 1px solid #dd8939;
+	}
+	.footer-information-list {
+		padding: 0;
+	    flex-direction: column;
+	}
+	.footer-information-list .list-infor {
+	    width: 100%;
+	    padding: 15px 0;
+	    text-align: center;
+	    border-bottom: 1px solid #dd8939;
+	}
+	.footer-information-list .list-infor:last-child {
+		border: none;
+	}
+}
+
+@media only screen and (max-width: 630.98px) {
+	.header-right {
+	    padding: 17px 0 0 14px;
+	}
+	.content-type-of-food-list ul li p {
+	    font-size: 17px;
+	}
+	.menu-drop-down {
+	    padding: 0 15px;
+	    top: 0;
+	    left: 0;
+	    z-index: 10;
+	}
+	.menu-drop-down ul {
+	    flex-direction: column;
+	    padding: 0;
+	    font-size: 15px;
+	}
+	.menu-drop-down ul li{
+		width: 100%;
+		padding: 10px 0;
+		border-bottom: 1px solid #cccccc;
+	}
+	.menu-drop-down ul li:last-child{
+		border: none;
+	}
+	.content-slider-desc {
+	    font-size: 32px;
+	    line-height: 40px;
+	    left: 10%;
+	}
+	.content-slider-desc p strong {
+	    font-size: 26px;
+	}
+	.content-slider-desc input {
+	    width: 32%;
+	    font-size: 7px;
+	    padding: 8px;
+	}
+	.content-slider-radio {
+	    width: 10px;
+	    right: 10px;
+	}
+	.content-slider-radio > ul > li {
+	    padding: 4px;
+	    margin: 13px 0;
+	}
+	.content-type-of-food-list ul::before {
+	    content: url(../img/image-corn.png);
+	    position: absolute;
+	    left: 25%;
+	    bottom: -32%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul::after {
+	    content: url(../img/image-corn1.png);
+	    position: absolute;
+	    top: -16%;
+	    right: 20%;
+	    z-index: -3;
+	}
+}
+
+@media only screen and (max-width: 540.98px) {
+	.header-right-bottom-nav > ul > li::before {
+	    content: url(../img/icon-hover.png);
+	    position: relative;
+	    top: 22px;
+	    left: 53%;
+	    z-index: 5;
+	    opacity: 0;
+	}
+	.content-feature-product-title .title {
+	    font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 489.98px) {
+	.header-right {
+		padding: 0;
+	}
+	.content-slider-desc {
+	    top: 13%;
+	}
+	.header-right-bottom-nav > ul > li {
+	    font-size: 15px;
+	}
+	.content-slider-desc {
+	    font-size: 23px;
+	    line-height: 36px;
+	}
+	.content-slider-desc p strong {
+	    font-size: 20px;
+	}
+	.content-slider-desc input {
+	    width: 40%;
+	}
+	.content-slider-radio {
+	    right: 5px;
+	}
+	.content-type-canner-food img {
+	    top: -2%;
+	}
+	.content-type-of-food-list ul::before {
+	    content: url(../img/image-corn.png);
+	    position: absolute;
+	    left: 15%;
+	    bottom: -11%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul::after {
+	    content: url(../img/image-corn1.png);
+	    position: absolute;
+	    top: -6%;
+	    right: 20%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul li {
+	    width: 100%;
+	}
+	.content-type-of-food-list ul li:nth-child(5), .content-type-of-food-list ul li:nth-child(6) {
+	    width: 100%;
+	}
+	.content-type-of-food-list ul li p {
+	    font-size: 20px;
+	    bottom: 13%;
+	    right: 9%;
+	}
+}
+
+@media only screen and (max-width: 393.98px) {
+	.header-right-top-language ul li {
+	    width: 15%;
+	}
+	.header-right-bottom-nav > ul > li {
+	    font-size: 12px;
+	}
+	.header-right-bottom-nav .header-right-top-language ul li{
+		width: 9%;
+	}
+	.content-slider-desc {
+	    font-size: 16px;
+	    line-height: 28px;
+	}
+	.content-slider-desc p strong {
+	    font-size: 15px;
+	}
+	.content-slider-desc input {
+	    width: 52%;
+	    font-size: 6px;
+	    padding: 5px;
+	}
+	.content-feature-product-list .product {
+	    width: 100%;
+	}
+	.content-feature-product-title .title {
+	    font-size: 14px;
+	}
+	.content-slider-desc p {
+	    margin-left: 0;
+	}
+	.content-type-of-food-list ul::before {
+	    content: url(../img/image-corn.png);
+	    position: absolute;
+	    left: 8%;
+	    bottom: -14%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul::after {
+	    content: url(../img/image-corn1.png);
+	    position: absolute;
+	    top: -8%;
+	    right: 10%;
+	    z-index: -3;
+	}
+}
+
+@media only screen and (max-width: 329.98px) {
+	.header-right-bottom-nav > ul > li {
+	    font-size: 11px;
+	}
+	.content-feature-product-title .title {
+	    font-size: 12px;
+	}
+	.content-type-of-food-list ul::before {
+	    content: url(../img/image-corn.png);
+	    position: absolute;
+	    left: 0;
+	    bottom: -17%;
+	    z-index: -3;
+	}
+}
+
+@media only screen and (max-width: 320.98px) {
+	.header-right {
+	    width: 100%;
+	    padding: 0;
+	}
+	.header-right-top-language {
+	    padding: 15px 35px;
+	}
+	.header-right-top-language ul li {
+	    width: 25%;
+	}
+	.header-right-top-language ul li i {
+	    font-size: 23px;
+	}
+	.header-right-top-language > ul li img {
+	    width: 40%;
+	}
+	.header-right-bottom-nav > ul > li {
+	    font-size: 14px;
+	}
+	.header-right-bottom-nav > ul > li::before {
+	    content: url(../img/icon-hover.png);
+	    position: relative;
+	    top: 19px;
+	    left: 49%;
+	    z-index: 5;
+	    opacity: 0;
+	}
+	.menu-drop-down{
+		padding: 0;
+	}
+	.menu-drop-down ul li a {
+	    font-size: 12px;
+	    margin-left: 20%;
+	}
+	.header-right-bottom-nav .header-right-top-language ul li {
+	    width: 28%;
+	}
+	.content-slider-desc {
+	    font-size: 15px;
+	    line-height: 20px;
+	    left: 6%;
+	}
+	.content-slider-desc p {
+	    width: 55%;
+	    margin: 0;
+	}
+	.content-slider-desc p strong {
+	    font-size: 15px;
+	    letter-spacing: 1px;
+	}
+	.content-slider-desc input {
+	    width: 49%;
+	    padding: 8px;
+	    margin-top: 5%;
+	    font-size: 7px;
+	}
+	.content-slider-radio {
+		width: 10px;
+	    top: 30%;
+	    right: 3px;
+	}
+	.content-slider-radio > ul > li {
+	    padding: 4px;
+	    margin: 7px 0;
+	}
+	.content-type-of-food-list ul::before {
+	    content: url(../img/image-corn.png);
+	    position: absolute;
+	    left: 0px;
+	    bottom: -16%;
+	    z-index: -3;
+	}
+	.content-type-of-food-list ul::after {
+	    content: url(../img/image-corn1.png);
+	    position: absolute;
+	    top: -2.5%;
+	    right: 20%;
+	    z-index: -3;
+	}
+	.content-feature-product-title .title {
+	    font-size: 13px;
+	}
+	.footer-support {
+	    padding: 0 5px;
+	}
+	.footer-information-subscribe .title h4 {
+	    font-size: 19px;
+	}
+}
+
+@media only screen and (max-width: 300.98px) {
+	.content-type-of-food-list ul::before,.content-type-of-food-list ul::after {
+	    display: none;
+	}
+}
