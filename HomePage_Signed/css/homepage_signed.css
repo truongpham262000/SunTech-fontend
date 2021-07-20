@@ -179,6 +179,7 @@ header .container{
 }
 .menu-drop-down ul li a{
 	color: #fff;
+	font-weight: lighter;
 }
 .menu-drop-down ul li a:hover{
 	color: #ee4054;
@@ -223,11 +224,12 @@ content{
     font-size: 60px;
 }
 .content-slider-desc input {
-	width: 25.5%;
+    width: 31.5%;
     padding: 20px;
-    margin: 55px -13px 0;
+    margin: 58px -13px 0;
 
     font-weight: bold;
+    font-size: 17px;
     border-radius: 40px;
     border: 1px solid #fff;
 
@@ -408,6 +410,11 @@ content{
 	width: 100%;
 	padding-top: 67px;
 }
+.item:hover{
+	box-shadow: 5px 5px 3px #cccccc,
+				-5px -5px 3px #cccccc;
+	transition: ease-in 0.3s;
+}
 .content-feature-product-title{
 	width: 100%;
 	display: flex;
@@ -419,9 +426,11 @@ content{
 	margin: 0 -15px;
 }
 .content-feature-product-title .title{
+	font-family: 'TYPOSKETCHDEMO';
 	width: 50%;
 	margin: 0;
 	font-size: 30px;
+	letter-spacing: 1px;
 	color: #e4a571;
 }
 .content-feature-product-title .extend{
@@ -484,7 +493,7 @@ content{
 	transition: ease-in 0.3s;
 }
 .content-bestsellers{
-	padding: 18px 0 32px;
+	padding: 18px 0 12px;
 }
 footer{
 	width: 100%;
@@ -514,6 +523,7 @@ footer{
 }
 .footer-support-phone a i{
 	padding: 0px 10px 0;
+	transform: translateY(2px);
 	font-size: 20px;
 }
 .footer-support-help{
