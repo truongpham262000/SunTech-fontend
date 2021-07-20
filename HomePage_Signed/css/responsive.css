@@ -533,6 +533,7 @@
 	}
 	.content-type-of-food-list ul li:nth-child(5), .content-type-of-food-list ul li:nth-child(6) {
 	    width: 100%;
+	    padding-top: 5px;
 	}
 	.content-type-of-food-list ul li p {
 	    font-size: 20px;

@@ -411,8 +411,7 @@ content{
 	padding-top: 67px;
 }
 .item:hover{
-	box-shadow: 5px 5px 3px #cccccc,
-				-5px -5px 3px #cccccc;
+	box-shadow: 5px 5px 3px #cccccc,-5px -5px 3px #cccccc;
 	transition: ease-in 0.3s;
 }
 .content-feature-product-title{
