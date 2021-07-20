@@ -411,7 +411,7 @@ content{
 	padding-top: 67px;
 }
 .item:hover{
-	box-shadow: 5px 5px 3px #cccccc,-5px -5px 3px #cccccc;
+	box-shadow: 5px 5px 5px #cccccc,-5px -5px 5px #cccccc;
 	transition: ease-in 0.3s;
 }
 .content-feature-product-title{
@@ -631,6 +631,9 @@ footer{
 }
 .footer-information-list .list-infor ul li{
 	padding: 10px 0;
+}
+.footer-information-list .list-infor ul li a,.footer-developers p{
+	color: #555555;
 }
 .footer-information-list .list-infor ul li a:hover{
 	color: #ee4054;
