@@ -259,6 +259,7 @@
 	}
 	.header-right-bottom-nav > ul > li{
 		width: 100%;
+		padding: 10px 0;
 		text-align: left;
 		border-bottom: 1px solid #cccccc;
 		display: flex;
