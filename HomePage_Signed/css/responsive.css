@@ -218,6 +218,7 @@
 	}
 	.header-right-bottom-nav .header-right-bottom-nav-search{
 		width: 100%;
+		padding: 10px 15px;
 		display: inline-block;
 		position: relative;
 	}
@@ -233,10 +234,11 @@
 		font-size: 15px;
 	}
 	.header-right-bottom-nav .header-right-bottom-nav-search label {
+		padding-right: 5px;
 	    position: absolute;
-	    bottom: 12%;
-	    right: 3%;
-	    font-size: 25px;
+	    bottom: 31%;
+	    right: 5%;
+	    font-size: 20px;
 	    color: #555555;
 	}
 	.header-right-bottom-nav .header-right-bottom-nav-search label:hover {
@@ -244,7 +246,6 @@
 		transition: ease-in 0.3s;
 	}
 	.header-right-bottom-nav {
-		padding: 15px 0;
 	    display: none;
 	    position: absolute;
 	    left: 0;
@@ -302,13 +303,13 @@
 	.menu-drop-down ul li{
 		width: 100%;
 		padding: 10px 0;
+		text-align: center;
 		border-bottom: 1px solid #cccccc;
 	}
 	.menu-drop-down ul li:last-child{
 		border: none;
 	}
 	.menu-drop-down ul li a{
-		margin-left: 10%;
 		color: #222222;
 	}
 	.header-right-bottom-nav > ul > li:hover .menu-drop-down{
@@ -365,12 +366,14 @@
 	}
 	.content-type-of-food-list ul li {
 	    width: 50%;
+	    padding-top: 5px;
 	}
 	.content-feature-product-list .product {
 	    width: 50%;
 	    padding: 15px;
 	}
 	.content-feature-product-title .title {
+		width: 100%;
 	    font-size: 23px;
 	}
 	.footer-support {
@@ -412,6 +415,9 @@
 }
 
 @media only screen and (max-width: 630.98px) {
+	.header-left-logo {
+	    width: 35%;
+	}
 	.header-right {
 	    padding: 17px 0 0 14px;
 	}
@@ -498,6 +504,9 @@
 	.header-right-bottom-nav > ul > li {
 	    font-size: 15px;
 	}
+	.header-right-bottom-nav .header-right-bottom-nav-search label {
+	    right: 8%;
+	}
 	.content-slider-desc {
 	    font-size: 23px;
 	    line-height: 36px;
@@ -533,7 +542,6 @@
 	}
 	.content-type-of-food-list ul li:nth-child(5), .content-type-of-food-list ul li:nth-child(6) {
 	    width: 100%;
-	    padding-top: 5px;
 	}
 	.content-type-of-food-list ul li p {
 	    font-size: 20px;
@@ -543,6 +551,9 @@
 }
 
 @media only screen and (max-width: 393.98px) {
+	.header-left-logo {
+	    width: 50%;
+	}
 	.header-right-top-language ul li {
 	    width: 15%;
 	}
@@ -552,26 +563,34 @@
 	.header-right-bottom-nav .header-right-top-language ul li{
 		width: 9%;
 	}
+	.content-slider-img img {
+	    height: 340px;
+	    object-fit: cover;
+	}
 	.content-slider-desc {
-	    font-size: 16px;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 20px;
 	    line-height: 28px;
+	    top: 36%;
+	    left: 0;
+	}
+	.content-slider-desc p {
+	    width: 100%;
+	    margin: 0;
 	}
 	.content-slider-desc p strong {
-	    font-size: 15px;
+	    font-size: 20px;
+	    letter-spacing: 1px;
 	}
 	.content-slider-desc input {
-	    width: 52%;
-	    font-size: 6px;
-	    padding: 5px;
+	    width: 70%;
+	    padding: 8px;
+	    margin-top: 13%;
+	    font-size: 14px;
 	}
 	.content-feature-product-list .product {
 	    width: 100%;
-	}
-	.content-feature-product-title .title {
-	    font-size: 14px;
-	}
-	.content-slider-desc p {
-	    margin-left: 0;
 	}
 	.content-type-of-food-list ul::before {
 	    content: url(../img/image-corn.png);
@@ -592,9 +611,6 @@
 @media only screen and (max-width: 329.98px) {
 	.header-right-bottom-nav > ul > li {
 	    font-size: 11px;
-	}
-	.content-feature-product-title .title {
-	    font-size: 12px;
 	}
 	.content-type-of-food-list ul::before {
 	    content: url(../img/image-corn.png);
@@ -633,34 +649,20 @@
 	    z-index: 5;
 	    opacity: 0;
 	}
+	.content-slider-desc {
+	    font-size: 17px;
+	}
+	.content-slider-desc p strong {
+	    font-size: 17px;
+	}
 	.menu-drop-down{
 		padding: 0;
 	}
 	.menu-drop-down ul li a {
 	    font-size: 12px;
-	    margin-left: 20%;
 	}
 	.header-right-bottom-nav .header-right-top-language ul li {
 	    width: 28%;
-	}
-	.content-slider-desc {
-	    font-size: 15px;
-	    line-height: 20px;
-	    left: 6%;
-	}
-	.content-slider-desc p {
-	    width: 55%;
-	    margin: 0;
-	}
-	.content-slider-desc p strong {
-	    font-size: 15px;
-	    letter-spacing: 2px;
-	}
-	.content-slider-desc input {
-	    width: 49%;
-	    padding: 8px;
-	    margin-top: 5%;
-	    font-size: 7px;
 	}
 	.content-slider-radio {
 		width: 10px;
@@ -685,8 +687,8 @@
 	    right: 20%;
 	    z-index: -3;
 	}
-	.content-feature-product-title .title {
-	    font-size: 13px;
+	.content-feature-product-title .extend {
+	    font-size: 16px;
 	}
 	.footer-support {
 	    padding: 0 5px;
